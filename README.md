@@ -23,8 +23,8 @@ The final models were evaluated on a held-out test set to compare their performa
 
 | Model | Training Method | Dataset (1M pairs) | Final BLEU Score |
 | :--- | :--- | :--- | :--- |
-| **Seq2Seq Transformer**| From Scratch | Samanantar | **[Your 20.56 Score]** |
-| **NLLB-600M** | Fine-Tuning | Samanantar | **[Your 35.93 Score]** |
+| **Seq2Seq Transformer**| From Scratch | Samanantar | **[20.56]** |
+| **NLLB-600M** | Fine-Tuning | Samanantar | **[35.93]** |
 
 ### Conclusion
 The results clearly demonstrate the power of transfer learning. The fine-tuned NLLB model significantly outperformed the from-scratch model, proving that leveraging large pre-trained models is the most effective approach for achieving state-of-the-art results.
